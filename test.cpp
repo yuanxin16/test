@@ -4,8 +4,7 @@
 
 using namespace std;
 
-static int abcd = 5;
-int ghfhfh;
+int xxxxx=2;
 
 class test
 {
@@ -15,8 +14,6 @@ public:
 
 private:
 	int a;
-	int b;
-	string x;
 };
 
 test::test(int x)
@@ -37,8 +34,6 @@ int test::cmp(test t)
 
 int main() {
 	test A(1);
-	test x(2);
-	string m = "123";
 	test B(-1);
 	int cao = A.cmp(B);
 	cout << cao << endl; 
